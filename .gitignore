@@ -1,1 +1,15 @@
-Debug//nRelease//n*.elf/n*.bin/n*.map/n*.list/n.metadata//n
+
+Debug/
+
+Release/
+
+*.elf
+
+*.bin
+
+*.map
+
+*.list
+
+.metadata/
+
