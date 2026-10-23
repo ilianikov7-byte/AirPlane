@@ -35,8 +35,9 @@ A flight controller I'm building from scratch for a small plastic-bottle RC airp
 
 - [x] USB virtual COM port, with `printf` output to the PC
 - [x] Servo control with timer PWM (50 Hz, 1000-2000 µs pulses)
-- [ ] Solder headers and move from loose wires to a proper breadboard setup
-- [ ] Read the IMU over SPI (WHO_AM_I check, then raw gyro and accel data)
+- [x] Solder headers and move from loose wires to a proper breadboard setup
+- [x] Read the IMU over SPI (WHO_AM_I check, then raw gyro and accel data)
+- [ ] Fix IMU to STM32 wiring connection
 - [ ] Attitude estimation (complementary filter, later Madgwick/Mahony)
 - [ ] Fixed-rate control loop (timer interrupt) and PID stabilisation, bench-tested
 - [ ] RC receiver input, flight modes and failsafe
